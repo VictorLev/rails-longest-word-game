@@ -1,0 +1,7 @@
+<div class="d-flex flex-column container">
+  <h1 >Result</h1>
+  <div >
+    <%= "#{@score[:message]} #{@good ? @score[:score] : ""}" %>
+  </div>
+  <%= link_to "Play Again", new_path %>
+</div>
